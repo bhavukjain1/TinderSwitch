@@ -25,6 +25,6 @@ Always use TinderSwitch app first to change location before opening the Tinder a
 3. Facebook
 
 # All The Best
-Hopefully, you'll enjoy using tinder plus feature for free.
+Hopefully, you'll enjoy using tinder plus feature for free and might find a match. :)
 
 Twitter: [@bhavukjain1](http://twitter.com/bhavukjain1)
