@@ -1,5 +1,5 @@
 # TinderSwitch
-Get Tinder Plus Paid feature i.e Location Change for FREE on iOS. On iOS, manipulating GPS is not possible. So by using Tinder private APIs, we're manipulating the location of the User.
+Get Tinder Plus Paid feature, **Location Change** for FREE on iOS. On iOS, manipulating GPS is not possible. So by using Tinder private APIs, we're manipulating the location of the User.
 
 # Usage
 Please follow these steps to successfully update the location:
