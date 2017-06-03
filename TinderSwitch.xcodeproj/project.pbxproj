@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A329B31F5B2B5A179F4A8890 /* Pods_TinderSwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4014B05252F8D933563AA21B /* Pods_TinderSwitchUITests.framework */; };
+		B7BABB9CF0632815FDAC1D18 /* Pods_TinderSwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C4A8231191D2D052D88372 /* Pods_TinderSwitchTests.framework */; };
+		B9452A351EE2D17F0058A4F1 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9452A341EE2D17F0058A4F1 /* ProgressIndicator.swift */; };
+		B9B5D1631E9FDC7C0007A38C /* FacebookLoginWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5D1621E9FDC7C0007A38C /* FacebookLoginWrapper.swift */; };
+		B9B5D1651E9FDD340007A38C /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5D1641E9FDD340007A38C /* UserDetails.swift */; };
+		B9CCED9A1EA66D0700052ADD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCED991EA66D0700052ADD /* LoginViewController.swift */; };
+		B9CCED9C1EA66F4900052ADD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCED9B1EA66F4800052ADD /* AppConstants.swift */; };
+		B9E88ACA1E9EA3580058F4C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AC91E9EA3580058F4C7 /* AppDelegate.swift */; };
+		B9E88ACC1E9EA3580058F4C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88ACB1E9EA3580058F4C7 /* ViewController.swift */; };
+		B9E88ACF1E9EA3580058F4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E88ACD1E9EA3580058F4C7 /* Main.storyboard */; };
+		B9E88AD21E9EA3580058F4C7 /* TinderSwitch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AD01E9EA3580058F4C7 /* TinderSwitch.xcdatamodeld */; };
+		B9E88AD41E9EA3580058F4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E88AD31E9EA3580058F4C7 /* Assets.xcassets */; };
+		B9E88AD71E9EA3580058F4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E88AD51E9EA3580058F4C7 /* LaunchScreen.storyboard */; };
+		B9E88AE21E9EA3580058F4C7 /* TinderSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AE11E9EA3580058F4C7 /* TinderSwitchTests.swift */; };
+		B9E88AED1E9EA3580058F4C7 /* TinderSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AEC1E9EA3580058F4C7 /* TinderSwitchUITests.swift */; };
+		B9E88AFB1E9EA4910058F4C7 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AFA1E9EA4910058F4C7 /* NetworkHandler.swift */; };
+		B9E88AFD1E9EA4B50058F4C7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AFC1E9EA4B50058F4C7 /* Helper.swift */; };
+		B9E88AFF1E9EA7180058F4C7 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E88AFE1E9EA7180058F4C7 /* LocationService.swift */; };
+		FC088E13BED42DD9E1ADA1B4 /* Pods_TinderSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807206C792BADD07D9C2DC9E /* Pods_TinderSwitch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E88ADE1E9EA3580058F4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E88ABE1E9EA3580058F4C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E88AC51E9EA3580058F4C7;
+			remoteInfo = TinderSwitch;
+		};
+		B9E88AE91E9EA3580058F4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E88ABE1E9EA3580058F4C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E88AC51E9EA3580058F4C7;
+			remoteInfo = TinderSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13C4A8231191D2D052D88372 /* Pods_TinderSwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderSwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B24C592F3B19E25B69796C /* Pods-TinderSwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitchUITests/Pods-TinderSwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2ED81E3651B4EBB121667EAF /* Pods-TinderSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitch/Pods-TinderSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		4014B05252F8D933563AA21B /* Pods_TinderSwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderSwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4938E0840AEFEF7BBB068830 /* Pods-TinderSwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitchTests/Pods-TinderSwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		807206C792BADD07D9C2DC9E /* Pods_TinderSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872A05A91800712A57A4F32F /* Pods-TinderSwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitchTests/Pods-TinderSwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9452A341EE2D17F0058A4F1 /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		B9B5D1621E9FDC7C0007A38C /* FacebookLoginWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginWrapper.swift; sourceTree = "<group>"; };
+		B9B5D1641E9FDD340007A38C /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		B9CCED991EA66D0700052ADD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9CCED9B1EA66F4800052ADD /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B9E88AC61E9EA3580058F4C7 /* TinderSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E88AC91E9EA3580058F4C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9E88ACB1E9EA3580058F4C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9E88ACE1E9EA3580058F4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E88AD11E9EA3580058F4C7 /* TinderSwitch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinderSwitch.xcdatamodel; sourceTree = "<group>"; };
+		B9E88AD31E9EA3580058F4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E88AD61E9EA3580058F4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9E88AD81E9EA3580058F4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E88ADD1E9EA3580058F4C7 /* TinderSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E88AE11E9EA3580058F4C7 /* TinderSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwitchTests.swift; sourceTree = "<group>"; };
+		B9E88AE31E9EA3580058F4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E88AE81E9EA3580058F4C7 /* TinderSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E88AEC1E9EA3580058F4C7 /* TinderSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwitchUITests.swift; sourceTree = "<group>"; };
+		B9E88AEE1E9EA3580058F4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E88AFA1E9EA4910058F4C7 /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		B9E88AFC1E9EA4B50058F4C7 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B9E88AFE1E9EA7180058F4C7 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		CA6E5F083E5BB0C261CC783A /* Pods-TinderSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitch/Pods-TinderSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		CEB2428FAC35CA402602C2B3 /* Pods-TinderSwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderSwitchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderSwitchUITests/Pods-TinderSwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E88AC31E9EA3580058F4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC088E13BED42DD9E1ADA1B4 /* Pods_TinderSwitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88ADA1E9EA3580058F4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BABB9CF0632815FDAC1D18 /* Pods_TinderSwitchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88AE51E9EA3580058F4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A329B31F5B2B5A179F4A8890 /* Pods_TinderSwitchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9452A361EE2D1E10058A4F1 /* FbWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5D1641E9FDD340007A38C /* UserDetails.swift */,
+				B9B5D1621E9FDC7C0007A38C /* FacebookLoginWrapper.swift */,
+			);
+			name = FbWrapper;
+			sourceTree = "<group>";
+		};
+		B9452A371EE2D1EB0058A4F1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				B9E88AFC1E9EA4B50058F4C7 /* Helper.swift */,
+				B9E88AFA1E9EA4910058F4C7 /* NetworkHandler.swift */,
+				B9452A341EE2D17F0058A4F1 /* ProgressIndicator.swift */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		B9452A381EE2D2400058A4F1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B9E88AFE1E9EA7180058F4C7 /* LocationService.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B9E88ABD1E9EA3580058F4C7 = {
+			isa = PBXGroup;
+			children = (
+				B9E88AC81E9EA3580058F4C7 /* TinderSwitch */,
+				B9E88AE01E9EA3580058F4C7 /* TinderSwitchTests */,
+				B9E88AEB1E9EA3580058F4C7 /* TinderSwitchUITests */,
+				B9E88AC71E9EA3580058F4C7 /* Products */,
+				C6950CE013734968E24B102E /* Pods */,
+				ED3062D816B5C441DCD6FF0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E88AC71E9EA3580058F4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E88AC61E9EA3580058F4C7 /* TinderSwitch.app */,
+				B9E88ADD1E9EA3580058F4C7 /* TinderSwitchTests.xctest */,
+				B9E88AE81E9EA3580058F4C7 /* TinderSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E88AC81E9EA3580058F4C7 /* TinderSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				B9452A371EE2D1EB0058A4F1 /* External */,
+				B9452A361EE2D1E10058A4F1 /* FbWrapper */,
+				B9452A381EE2D2400058A4F1 /* API */,
+				B9CCED9B1EA66F4800052ADD /* AppConstants.swift */,
+				B9E88AC91E9EA3580058F4C7 /* AppDelegate.swift */,
+				B9E88ACB1E9EA3580058F4C7 /* ViewController.swift */,
+				B9CCED991EA66D0700052ADD /* LoginViewController.swift */,
+				B9E88ACD1E9EA3580058F4C7 /* Main.storyboard */,
+				B9E88AD31E9EA3580058F4C7 /* Assets.xcassets */,
+				B9E88AD51E9EA3580058F4C7 /* LaunchScreen.storyboard */,
+				B9E88AD81E9EA3580058F4C7 /* Info.plist */,
+				B9E88AD01E9EA3580058F4C7 /* TinderSwitch.xcdatamodeld */,
+			);
+			path = TinderSwitch;
+			sourceTree = "<group>";
+		};
+		B9E88AE01E9EA3580058F4C7 /* TinderSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E88AE11E9EA3580058F4C7 /* TinderSwitchTests.swift */,
+				B9E88AE31E9EA3580058F4C7 /* Info.plist */,
+			);
+			path = TinderSwitchTests;
+			sourceTree = "<group>";
+		};
+		B9E88AEB1E9EA3580058F4C7 /* TinderSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E88AEC1E9EA3580058F4C7 /* TinderSwitchUITests.swift */,
+				B9E88AEE1E9EA3580058F4C7 /* Info.plist */,
+			);
+			path = TinderSwitchUITests;
+			sourceTree = "<group>";
+		};
+		C6950CE013734968E24B102E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ED81E3651B4EBB121667EAF /* Pods-TinderSwitch.debug.xcconfig */,
+				CA6E5F083E5BB0C261CC783A /* Pods-TinderSwitch.release.xcconfig */,
+				4938E0840AEFEF7BBB068830 /* Pods-TinderSwitchTests.debug.xcconfig */,
+				872A05A91800712A57A4F32F /* Pods-TinderSwitchTests.release.xcconfig */,
+				CEB2428FAC35CA402602C2B3 /* Pods-TinderSwitchUITests.debug.xcconfig */,
+				24B24C592F3B19E25B69796C /* Pods-TinderSwitchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED3062D816B5C441DCD6FF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807206C792BADD07D9C2DC9E /* Pods_TinderSwitch.framework */,
+				13C4A8231191D2D052D88372 /* Pods_TinderSwitchTests.framework */,
+				4014B05252F8D933563AA21B /* Pods_TinderSwitchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E88AC51E9EA3580058F4C7 /* TinderSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E88AF11E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitch" */;
+			buildPhases = (
+				0ED1D5EE648DDD528DFDB2B1 /* [CP] Check Pods Manifest.lock */,
+				B9E88AC21E9EA3580058F4C7 /* Sources */,
+				B9E88AC31E9EA3580058F4C7 /* Frameworks */,
+				B9E88AC41E9EA3580058F4C7 /* Resources */,
+				D277B45E46F57038066450F9 /* [CP] Embed Pods Frameworks */,
+				9E1CB258AD3CAB55C1754910 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderSwitch;
+			productName = TinderSwitch;
+			productReference = B9E88AC61E9EA3580058F4C7 /* TinderSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E88ADC1E9EA3580058F4C7 /* TinderSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E88AF41E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitchTests" */;
+			buildPhases = (
+				0679C713241F9AFBFBCB5D4C /* [CP] Check Pods Manifest.lock */,
+				B9E88AD91E9EA3580058F4C7 /* Sources */,
+				B9E88ADA1E9EA3580058F4C7 /* Frameworks */,
+				B9E88ADB1E9EA3580058F4C7 /* Resources */,
+				66A347AB07BE2A96B3DC0570 /* [CP] Embed Pods Frameworks */,
+				7C35E4942556AF779B91AF0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E88ADF1E9EA3580058F4C7 /* PBXTargetDependency */,
+			);
+			name = TinderSwitchTests;
+			productName = TinderSwitchTests;
+			productReference = B9E88ADD1E9EA3580058F4C7 /* TinderSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9E88AE71E9EA3580058F4C7 /* TinderSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E88AF71E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitchUITests" */;
+			buildPhases = (
+				65C4F294ED51282BC23729D6 /* [CP] Check Pods Manifest.lock */,
+				B9E88AE41E9EA3580058F4C7 /* Sources */,
+				B9E88AE51E9EA3580058F4C7 /* Frameworks */,
+				B9E88AE61E9EA3580058F4C7 /* Resources */,
+				B6EA691CF6298933DE067963 /* [CP] Embed Pods Frameworks */,
+				B9B4DA6335E394DD687E23A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E88AEA1E9EA3580058F4C7 /* PBXTargetDependency */,
+			);
+			name = TinderSwitchUITests;
+			productName = TinderSwitchUITests;
+			productReference = B9E88AE81E9EA3580058F4C7 /* TinderSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E88ABE1E9EA3580058F4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bhavuk Jain";
+				TargetAttributes = {
+					B9E88AC51E9EA3580058F4C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T9R7249Q58;
+						ProvisioningStyle = Automatic;
+					};
+					B9E88ADC1E9EA3580058F4C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76B74UFG23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9E88AC51E9EA3580058F4C7;
+					};
+					B9E88AE71E9EA3580058F4C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76B74UFG23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9E88AC51E9EA3580058F4C7;
+					};
+				};
+			};
+			buildConfigurationList = B9E88AC11E9EA3580058F4C7 /* Build configuration list for PBXProject "TinderSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E88ABD1E9EA3580058F4C7;
+			productRefGroup = B9E88AC71E9EA3580058F4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E88AC51E9EA3580058F4C7 /* TinderSwitch */,
+				B9E88ADC1E9EA3580058F4C7 /* TinderSwitchTests */,
+				B9E88AE71E9EA3580058F4C7 /* TinderSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E88AC41E9EA3580058F4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E88AD71E9EA3580058F4C7 /* LaunchScreen.storyboard in Resources */,
+				B9E88AD41E9EA3580058F4C7 /* Assets.xcassets in Resources */,
+				B9E88ACF1E9EA3580058F4C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88ADB1E9EA3580058F4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88AE61E9EA3580058F4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0679C713241F9AFBFBCB5D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED1D5EE648DDD528DFDB2B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65C4F294ED51282BC23729D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66A347AB07BE2A96B3DC0570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitchTests/Pods-TinderSwitchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C35E4942556AF779B91AF0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitchTests/Pods-TinderSwitchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1CB258AD3CAB55C1754910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitch/Pods-TinderSwitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EA691CF6298933DE067963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitchUITests/Pods-TinderSwitchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B4DA6335E394DD687E23A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitchUITests/Pods-TinderSwitchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D277B45E46F57038066450F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderSwitch/Pods-TinderSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E88AC21E9EA3580058F4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E88ACC1E9EA3580058F4C7 /* ViewController.swift in Sources */,
+				B9452A351EE2D17F0058A4F1 /* ProgressIndicator.swift in Sources */,
+				B9B5D1651E9FDD340007A38C /* UserDetails.swift in Sources */,
+				B9CCED9C1EA66F4900052ADD /* AppConstants.swift in Sources */,
+				B9E88ACA1E9EA3580058F4C7 /* AppDelegate.swift in Sources */,
+				B9E88AFD1E9EA4B50058F4C7 /* Helper.swift in Sources */,
+				B9E88AD21E9EA3580058F4C7 /* TinderSwitch.xcdatamodeld in Sources */,
+				B9E88AFF1E9EA7180058F4C7 /* LocationService.swift in Sources */,
+				B9B5D1631E9FDC7C0007A38C /* FacebookLoginWrapper.swift in Sources */,
+				B9CCED9A1EA66D0700052ADD /* LoginViewController.swift in Sources */,
+				B9E88AFB1E9EA4910058F4C7 /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88AD91E9EA3580058F4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E88AE21E9EA3580058F4C7 /* TinderSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E88AE41E9EA3580058F4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E88AED1E9EA3580058F4C7 /* TinderSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E88ADF1E9EA3580058F4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E88AC51E9EA3580058F4C7 /* TinderSwitch */;
+			targetProxy = B9E88ADE1E9EA3580058F4C7 /* PBXContainerItemProxy */;
+		};
+		B9E88AEA1E9EA3580058F4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E88AC51E9EA3580058F4C7 /* TinderSwitch */;
+			targetProxy = B9E88AE91E9EA3580058F4C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9E88ACD1E9EA3580058F4C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E88ACE1E9EA3580058F4C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9E88AD51E9EA3580058F4C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E88AD61E9EA3580058F4C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9E88AEF1E9EA3580058F4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9E88AF01E9EA3580058F4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E88AF21E9EA3580058F4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED81E3651B4EBB121667EAF /* Pods-TinderSwitch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9R7249Q58;
+				INFOPLIST_FILE = TinderSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.tinderswitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9E88AF31E9EA3580058F4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6E5F083E5BB0C261CC783A /* Pods-TinderSwitch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9R7249Q58;
+				INFOPLIST_FILE = TinderSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.tinderswitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9E88AF51E9EA3580058F4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4938E0840AEFEF7BBB068830 /* Pods-TinderSwitchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = TinderSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.TinderSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwitch.app/TinderSwitch";
+			};
+			name = Debug;
+		};
+		B9E88AF61E9EA3580058F4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872A05A91800712A57A4F32F /* Pods-TinderSwitchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = TinderSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.TinderSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwitch.app/TinderSwitch";
+			};
+			name = Release;
+		};
+		B9E88AF81E9EA3580058F4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB2428FAC35CA402602C2B3 /* Pods-TinderSwitchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = TinderSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.TinderSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinderSwitch;
+			};
+			name = Debug;
+		};
+		B9E88AF91E9EA3580058F4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B24C592F3B19E25B69796C /* Pods-TinderSwitchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = TinderSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.TinderSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinderSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E88AC11E9EA3580058F4C7 /* Build configuration list for PBXProject "TinderSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E88AEF1E9EA3580058F4C7 /* Debug */,
+				B9E88AF01E9EA3580058F4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E88AF11E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E88AF21E9EA3580058F4C7 /* Debug */,
+				B9E88AF31E9EA3580058F4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E88AF41E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E88AF51E9EA3580058F4C7 /* Debug */,
+				B9E88AF61E9EA3580058F4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E88AF71E9EA3580058F4C7 /* Build configuration list for PBXNativeTarget "TinderSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E88AF81E9EA3580058F4C7 /* Debug */,
+				B9E88AF91E9EA3580058F4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9E88AD01E9EA3580058F4C7 /* TinderSwitch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9E88AD11E9EA3580058F4C7 /* TinderSwitch.xcdatamodel */,
+			);
+			currentVersion = B9E88AD11E9EA3580058F4C7 /* TinderSwitch.xcdatamodel */;
+			path = TinderSwitch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9E88ABE1E9EA3580058F4C7 /* Project object */;
+}

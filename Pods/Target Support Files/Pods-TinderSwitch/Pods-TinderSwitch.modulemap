@@ -1,0 +1,6 @@
+framework module Pods_TinderSwitch {
+  umbrella header "Pods-TinderSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}
